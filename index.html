@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Patates Counter</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h2>How many potatoes<br><span>Can you eat ?</span></h2>
+        </header>
+        <hr>
+        <main>
+            <section class="count">
+                <h1 id="headline">Potatoes eating</h1>
+                <h2 id="count-el">0</h2>
+                <div class="btn-box">
+                    <button onclick="patate()" class="btn btn-increment">INCREMENT</button>
+                    <button class="btn btn-save" onclick="save()">SAVE</button>
+                    <button class="btn btn-reset" onclick="reset()">RESET</button>
+                </div>
+
+                <p id="save-el" class="para-entires">Previous entires: </p>
+            </section>
+            <section class="coun-img">
+                <div>
+                    <img src="img/koala_eat_potato.png" class="img-eating">
+                </div>
+
+            </section>
+
+        </main>
+        <section>
+            <footer>
+                <h3>Build by Murloc Craft 2023</h3>
+            </footer>
+        </section>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
