@@ -1,6 +1,8 @@
 # Counter-potatoes
 ## This is a counter to eat a lot of potatoes !
 
+https://lysdora.github.io/counter-potatoes/
+
  ---
  This is my first JavaScript project, a simple potato counter! 
  Having fun and learning at the same time. 
